@@ -1,0 +1,27 @@
+//INPUT
+import java.util.*;
+public class Scanner{
+ int age = 23;//class is the virtual part
+  int weight = 56;
+  String color = "Blue";
+  void eat(){//object is the real part
+    System.out.println("I am eating");
+  }
+  void sleep(){
+    System.out.println("I am sleeping");
+  }
+  public static void main(String[] args){
+    Scanner s = new Scanner();
+    System.out.println(s.age);
+    System.out.println(s.weight);
+    System.out.println(s.color);
+    s.eat(); s.sleep();
+  
+  }
+}
+//OUTPUT
+23
+56
+Blue
+I am eating
+I am sleeping
